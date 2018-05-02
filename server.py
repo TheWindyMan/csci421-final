@@ -34,7 +34,10 @@ def destegano():
     #print(files, file=sys.stderr)
     return secret_text
     
-path = "cat.jpg"
-output_path = "catencode.jpg"
-text = 'The quick brown fox jumps over the lazy dog.'
-Steganography.encode(path, output_path, text)
+# path = "cat.jpg"
+# output_path = "catencode.jpg"
+# text = 'The quick brown fox jumps over the lazy dog.'
+# Steganography.encode(path, output_path, text)
+
+# secret_text = Steganography.decode(output_path)
+# print(secret_text)
