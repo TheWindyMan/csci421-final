@@ -111,7 +111,7 @@ def hide_text(path, text):
 
     # save
     img.save(path, "PNG", optimize=True)
-    #img.convert("JPEG")
+    img.convert("YCbCr")
 
 def to_hex(s):
     return s.encode("hex")
